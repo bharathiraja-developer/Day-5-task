@@ -1,6 +1,6 @@
 //Question: For the given JSON iterate over all for loops (for,for in,for of,forEach)
 
-let jsonBook = '{"title":"javaScript","author":"Bharath","pages":200,"price":1500,"ratings":4.5}'
+let jsonBook = '{"title":"javaScript","author":"Bharath","pages":200,"price":1500,"ratings":4.5}';
 
 let book = JSON.parse(jsonBook);
 let keys = Object.keys(book);
